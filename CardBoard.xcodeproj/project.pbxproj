@@ -10,12 +10,20 @@
 		BABAFE46243860DD00807EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE45243860DD00807EA5 /* AppDelegate.swift */; };
 		BABAFE48243860DD00807EA5 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE47243860DD00807EA5 /* DocumentBrowserViewController.swift */; };
 		BABAFE4A243860DD00807EA5 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE49243860DD00807EA5 /* DocumentViewController.swift */; };
-		BABAFE4C243860DD00807EA5 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE4B243860DD00807EA5 /* Document.swift */; };
+		BABAFE4C243860DD00807EA5 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE4B243860DD00807EA5 /* Board.swift */; };
 		BABAFE4F243860DD00807EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABAFE4D243860DD00807EA5 /* Main.storyboard */; };
 		BABAFE51243860E000807EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABAFE50243860E000807EA5 /* Assets.xcassets */; };
 		BABAFE54243860E000807EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABAFE52243860E000807EA5 /* LaunchScreen.storyboard */; };
 		BABAFE5F243860E000807EA5 /* CardBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE5E243860E000807EA5 /* CardBoardTests.swift */; };
 		BABAFE6A243860E000807EA5 /* CardBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE69243860E000807EA5 /* CardBoardUITests.swift */; };
+		BABAFE7E2438610800807EA5 /* TextCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE772438610700807EA5 /* TextCard.swift */; };
+		BABAFE7F2438610800807EA5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE782438610700807EA5 /* Card.swift */; };
+		BABAFE802438610800807EA5 /* FilteredSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE792438610700807EA5 /* FilteredSequence.swift */; };
+		BABAFE812438610800807EA5 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE7A2438610700807EA5 /* Property.swift */; };
+		BABAFE822438610800807EA5 /* URLCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE7B2438610700807EA5 /* URLCard.swift */; };
+		BABAFE832438610800807EA5 /* CustomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE7C2438610700807EA5 /* CustomCard.swift */; };
+		BABAFE842438610800807EA5 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE7D2438610800807EA5 /* Group.swift */; };
+		BABAFE862438617C00807EA5 /* AnyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAFE852438617C00807EA5 /* AnyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +48,7 @@
 		BABAFE45243860DD00807EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BABAFE47243860DD00807EA5 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
 		BABAFE49243860DD00807EA5 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
-		BABAFE4B243860DD00807EA5 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		BABAFE4B243860DD00807EA5 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		BABAFE4E243860DD00807EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BABAFE50243860E000807EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BABAFE53243860E000807EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 		BABAFE65243860E000807EA5 /* CardBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABAFE69243860E000807EA5 /* CardBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBoardUITests.swift; sourceTree = "<group>"; };
 		BABAFE6B243860E000807EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABAFE772438610700807EA5 /* TextCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCard.swift; sourceTree = "<group>"; };
+		BABAFE782438610700807EA5 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BABAFE792438610700807EA5 /* FilteredSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredSequence.swift; sourceTree = "<group>"; };
+		BABAFE7A2438610700807EA5 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		BABAFE7B2438610700807EA5 /* URLCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLCard.swift; sourceTree = "<group>"; };
+		BABAFE7C2438610700807EA5 /* CustomCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCard.swift; sourceTree = "<group>"; };
+		BABAFE7D2438610800807EA5 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		BABAFE852438617C00807EA5 /* AnyCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +120,15 @@
 				BABAFE45243860DD00807EA5 /* AppDelegate.swift */,
 				BABAFE47243860DD00807EA5 /* DocumentBrowserViewController.swift */,
 				BABAFE49243860DD00807EA5 /* DocumentViewController.swift */,
-				BABAFE4B243860DD00807EA5 /* Document.swift */,
+				BABAFE4B243860DD00807EA5 /* Board.swift */,
+				BABAFE782438610700807EA5 /* Card.swift */,
+				BABAFE7C2438610700807EA5 /* CustomCard.swift */,
+				BABAFE792438610700807EA5 /* FilteredSequence.swift */,
+				BABAFE7D2438610800807EA5 /* Group.swift */,
+				BABAFE852438617C00807EA5 /* AnyCard.swift */,
+				BABAFE7A2438610700807EA5 /* Property.swift */,
+				BABAFE772438610700807EA5 /* TextCard.swift */,
+				BABAFE7B2438610700807EA5 /* URLCard.swift */,
 				BABAFE4D243860DD00807EA5 /* Main.storyboard */,
 				BABAFE50243860E000807EA5 /* Assets.xcassets */,
 				BABAFE52243860E000807EA5 /* LaunchScreen.storyboard */,
@@ -262,10 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABAFE4C243860DD00807EA5 /* Document.swift in Sources */,
+				BABAFE842438610800807EA5 /* Group.swift in Sources */,
+				BABAFE7E2438610800807EA5 /* TextCard.swift in Sources */,
+				BABAFE7F2438610800807EA5 /* Card.swift in Sources */,
+				BABAFE832438610800807EA5 /* CustomCard.swift in Sources */,
+				BABAFE4C243860DD00807EA5 /* Board.swift in Sources */,
 				BABAFE4A243860DD00807EA5 /* DocumentViewController.swift in Sources */,
+				BABAFE802438610800807EA5 /* FilteredSequence.swift in Sources */,
 				BABAFE48243860DD00807EA5 /* DocumentBrowserViewController.swift in Sources */,
+				BABAFE812438610800807EA5 /* Property.swift in Sources */,
 				BABAFE46243860DD00807EA5 /* AppDelegate.swift in Sources */,
+				BABAFE862438617C00807EA5 /* AnyCard.swift in Sources */,
+				BABAFE822438610800807EA5 /* URLCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
