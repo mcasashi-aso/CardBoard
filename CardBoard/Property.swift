@@ -8,7 +8,9 @@
 
 import UIKit
 
-protocol Property {
+// enumにすればCodableにできるけど…
+
+protocol Property/*: Codable*/ {
     var string: String { get }
 }
 
@@ -24,7 +26,7 @@ extension Optional: Property where Wrapped: Property {
     var string: String {
         switch self {
         case .some(let v): return v.string
-        case .none:        return String(describing: Wrapped.self)
+        case .none:        return ""
         }
     }
 }

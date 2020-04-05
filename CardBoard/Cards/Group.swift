@@ -48,8 +48,6 @@ extension Group {
     }
 }
 
-
-
 extension Group {
     var description: String {
         "GroupCard(\(self))"

@@ -7,7 +7,7 @@
 //
 
 
-protocol Card: Property, Codable {
+protocol Card: Property {
     var properties: [(name: String, property: Property?)] { get }
 }
 

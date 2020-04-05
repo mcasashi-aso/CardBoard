@@ -8,19 +8,19 @@
 
 import UIKit
 
-class Board: UIDocument, Card {
+class Board: UIDocument/*, Card*/ {
     
-    var properties: [(name: String, property: Property?)] {
-        groups.map { card in
-            let name = card.properties.first { $0.property is Group }!.name
-            return (name, card)
-        }
-    }
-
-    @FilteredSequence(filter: \.isGroup)
-    var groups = [Card]()
-
-    var pool = Group(name: "pool", children: [AnyCard]())
+//    var properties: [(name: String, property: Property?)] {
+//        groups.map { card in
+//            let name = card.properties.first { $0.property is Group }!.name
+//            return (name, card)
+//        }
+//    }
+//
+//    @FilteredSequence(filter: \.isGroup)
+//    var groups = [AnyCard]()
+//
+//    var pool = Group(name: "pool", children: [AnyCard]())
     
     
     override func contents(forType typeName: String) throws -> Any {
@@ -33,9 +33,9 @@ class Board: UIDocument, Card {
     }
 }
 
-extension Board {
-    convenience init(groups: [Card], pool: [Card]) {
-        self._groups = FilteredSequence(wrappedValue: groups, filter: \.isGroup)
-        self.pool = Group(name: "pool", children: pool)
-    }
-}
+//extension Board {
+//    convenience init(groups: [Card], pool: [Card]) {
+//        self.groups = groups.map { AnyCard($0) }
+//        self.pool = Group(name: "pool", children: pool)
+//    }
+//}

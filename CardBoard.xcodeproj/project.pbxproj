@@ -94,6 +94,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA576A4D2439AD6200555740 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				BABAFE782438610700807EA5 /* Card.swift */,
+				BABAFE772438610700807EA5 /* TextCard.swift */,
+				BABAFE7D2438610800807EA5 /* Group.swift */,
+				BABAFE852438617C00807EA5 /* AnyCard.swift */,
+				BABAFE7B2438610700807EA5 /* URLCard.swift */,
+				BABAFE7C2438610700807EA5 /* CustomCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
 		BABAFE39243860DC00807EA5 = {
 			isa = PBXGroup;
 			children = (
@@ -120,18 +133,13 @@
 				BABAFE45243860DD00807EA5 /* AppDelegate.swift */,
 				BABAFE47243860DD00807EA5 /* DocumentBrowserViewController.swift */,
 				BABAFE49243860DD00807EA5 /* DocumentViewController.swift */,
-				BABAFE4B243860DD00807EA5 /* Board.swift */,
-				BABAFE782438610700807EA5 /* Card.swift */,
-				BABAFE7C2438610700807EA5 /* CustomCard.swift */,
-				BABAFE792438610700807EA5 /* FilteredSequence.swift */,
-				BABAFE7D2438610800807EA5 /* Group.swift */,
-				BABAFE852438617C00807EA5 /* AnyCard.swift */,
-				BABAFE7A2438610700807EA5 /* Property.swift */,
-				BABAFE772438610700807EA5 /* TextCard.swift */,
-				BABAFE7B2438610700807EA5 /* URLCard.swift */,
 				BABAFE4D243860DD00807EA5 /* Main.storyboard */,
-				BABAFE50243860E000807EA5 /* Assets.xcassets */,
+				BABAFE4B243860DD00807EA5 /* Board.swift */,
+				BA576A4D2439AD6200555740 /* Cards */,
+				BABAFE792438610700807EA5 /* FilteredSequence.swift */,
+				BABAFE7A2438610700807EA5 /* Property.swift */,
 				BABAFE52243860E000807EA5 /* LaunchScreen.storyboard */,
+				BABAFE50243860E000807EA5 /* Assets.xcassets */,
 				BABAFE55243860E000807EA5 /* Info.plist */,
 			);
 			path = CardBoard;
